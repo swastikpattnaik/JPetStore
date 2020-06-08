@@ -26,6 +26,7 @@ public class JpetstoreApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JpetstoreApplication.class, args);
+		System.out.println("Hello Jenkins and GIT");
 	}
 
 }
