@@ -47,7 +47,7 @@
 	</developers>
 
 	<scm>
-		<url>https://github.com/kazuki43zoo/mybatis-spring-boot-jpetstore.git</url>
+		<url>https://github.com/swastikpattnaik/JPetStore.git</url>
 	</scm>
 
 	<parent>
