@@ -5,11 +5,11 @@ pipeline {
     stage('Maven Install') {
       agent {         
        docker {          
-         image 'maven:3.5.0'         
+         image 'maven:3.1.0'         
      }       
   }       
   steps {
-       sh 'clean package'
+       sh 'mvn clean install'
        }
      }
    }
